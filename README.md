@@ -6,4 +6,4 @@ Published at https://tomnpython.github.io/AmericaniZer/
 To Do:
   - Fix cursor on button
   - change function to make input toLowerCase
-  - remove extra imgs
+  - ~remove extra imgs~
