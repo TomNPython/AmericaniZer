@@ -4,6 +4,6 @@ A tool for converting sentences written in UK English into US English. Made usin
 Published at https://tomnpython.github.io/AmericaniZer/
 
 To Do:
-  - Fix cursor on button
-  - change function to make input toLowerCase
-  - remove extra imgs
+  - ~Fix cursor on button~
+  - ~change function to make input toLowerCase~
+  - ~remove extra imgs~

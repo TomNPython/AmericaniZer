@@ -32,11 +32,16 @@ const american = {
     'waistcoat': 'vest'
 }
 
+function capitaliseFirst(str) {
+    let arr = str.split('');
+    arr[0] = arr[0].toUpperCase();
+    return arr.join('')
+}
 
 function replaceAmerican(e) {
     e.preventDefault()
     console.log(e)
-    let str = inputer.value
+    let str = inputer.value.toLowerCase()
     let new_str = str;
     console.log(new_str)
     for (let key in american) {
@@ -47,8 +52,9 @@ function replaceAmerican(e) {
         new_str = new_str.replace(new RegExp(key, "g"), american[key]);
 
     }
+
     console.log(new_str)
-    display.textContent = '"' + new_str + '"'
+    display.textContent = '"' + capitaliseFirst(new_str) + '"'
     //return new_str
 }
 
